@@ -1,4 +1,13 @@
 {
+"main": "serverex.js",
+"scripts": {
+  "build": "npx knex migrate:up"
+},
+
+"engines": {
+  "node": "18.18.2"
+},
+
   "dependencies": {
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
